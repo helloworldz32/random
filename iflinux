@@ -1,0 +1,18 @@
+#!/bin/bash
+count=42
+if [ $count -eq 42 ]
+then
+echo "42 is correct"
+elif [ $count -gt 42 ]
+then
+echo "too much"
+else
+echo " Not enough"
+fi
+
+i=100;
+while [ $i -ge 0 ];
+do
+echo counting down from 10 to 0, now at $i;
+let i--;
+done

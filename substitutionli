@@ -1,0 +1,7 @@
+#!/bin/bash
+$variable 1 = $(echo 'my name is')
+$variable 2 = $(echo 'Ravi')
+echo "variable 1 : variable 2"
+
+#to print odd numbers in a given range
+seq 1 2 19

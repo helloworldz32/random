@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#declaring static array
+arr=(one two three)
+
+#printing all the elements
+echo ${arr[@]}
+
+#printing first element
+echo ${arr[0]}
+
+#size of array
+echo ${#arr[@]}
+
+#replacing substring temporary
+echo ${arr[@]//a/A}

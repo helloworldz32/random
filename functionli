@@ -1,0 +1,27 @@
+#!/bin/bash
+#function to greet the user
+function greet {
+echo "Hello,$1!"
+}
+
+#function to check if a number is even
+function is_even {
+if [ $(($1 % 2)) -eq 0 ]
+then 
+echo "$1 is even"
+else 
+echo "$1 is odd"
+fi
+}
+
+
+
+
+echo "what is your name?"
+read name
+
+greet $name
+echo "enter a number."
+read num
+
+is_even $num
